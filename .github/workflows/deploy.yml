@@ -66,9 +66,9 @@ jobs:
             # Clone the repository
             cd ~
             if [ ! -d "deployAngularApplication" ]; then
-              git clone https://github.com/Shivambembey98/deployAngularApplication.git
+              git clone https://github.com/Shivambembey98/DeployAngular2.git
             fi
-            cd deployAngularApplication
+            cd DeployAngular2
             git pull origin main
             # Build and run the Docker container
             docker stop angular-calculator || true
